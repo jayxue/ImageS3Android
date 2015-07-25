@@ -2,15 +2,15 @@
 
 ImageS3Android is an Android SDK that helps integrate ImageS3, an open source service for image resizing and hosting.
 
-![Demo Screenshot 1](https://github.com/jayxue/ImageS3Android/blob/master/ImageS3Android/res/raw/screenshot_1_github.png)
-![Demo Screenshot 2](https://github.com/jayxue/ImageS3Android/blob/master/ImageS3Android/res/raw/screenshot_2_github.png)
-![Demo Screenshot 3](https://github.com/jayxue/ImageS3Android/blob/master/ImageS3Android/res/raw/screenshot_3_github.png)
-![Demo Screenshot 4](https://github.com/jayxue/ImageS3Android/blob/master/ImageS3Android/res/raw/screenshot_4_github.png)
-![Demo Screenshot 5](https://github.com/jayxue/ImageS3Android/blob/master/ImageS3Android/res/raw/screenshot_5_github.png)
+![Demo Screenshot 1](https://github.com/jayxue/ImageS3Android/blob/master/ImageS3AndroidSDK/res/raw/screenshot_1_github.png)
+![Demo Screenshot 2](https://github.com/jayxue/ImageS3Android/blob/master/ImageS3AndroidSDK/res/raw/screenshot_2_github.png)
+![Demo Screenshot 3](https://github.com/jayxue/ImageS3Android/blob/master/ImageS3AndroidSDK/res/raw/screenshot_3_github.png)
+![Demo Screenshot 4](https://github.com/jayxue/ImageS3Android/blob/master/ImageS3AndroidSDK/res/raw/screenshot_4_github.png)
+![Demo Screenshot 5](https://github.com/jayxue/ImageS3Android/blob/master/ImageS3AndroidSDK/res/raw/screenshot_5_github.png)
 
 Check ImageS3Android Demo application on GooglePlay:<br />
 <a target="_blank" href="https://play.google.com/store/apps/details?id=com.wms.opensource.images3android.demo">
-  <img alt="Get it on Google Play" src="https://github.com/jayxue/ImageS3Android/blob/master/ImageS3Android/res/raw/google_play.png" />
+  <img alt="Get it on Google Play" src="https://github.com/jayxue/ImageS3Android/blob/master/ImageS3AndroidSDK/res/raw/google_play.png" />
 </a>
 
 Details
