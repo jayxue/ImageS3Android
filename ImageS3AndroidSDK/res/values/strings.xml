@@ -1,0 +1,46 @@
+<resources>
+
+    <string name="app_name">ImageS3Android</string>
+
+    <string name="serviceErrorTitle">Service Error</string>
+    <string name="serviceError">An error was encountered when calling the service. Please contact service provider.</string>
+    <string name="unknownErrorTitle">Unknown Error</string>
+    <string name="unknownError">Unknown error occurred. Please contact service provider and app producer.</string>    
+    <string name="uploadingImage">Uploading image. Please wait&#8230;</string>
+    <string name="loadingImages">Loading images. Please wait&#8230;</string>
+    <string name="deletingImage">Deleting image. Please wait&#8230;</string>
+    <string name="confirmUploadImage">Are you sure you want to upload this image?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="selectImage">Select Image</string>
+    <string name="uploadSuccessful">The image has been successfully uploaded!</string>
+    <string name="uploadFailedTitle">Upload Failed</string>
+    <string name="uploadFailed">The image upload is failed. Please contact service provider and app producer.</string>
+    <string name="deleteFailedTitle">Deletion Failed</string>
+    <string name="deleteFailed">The image deletion is failed. Please contact service provider and app producer.</string>
+    <string name="loadImagesFailedTitle">Load Image Failed</string>
+    <string name="loadImagesFailed">Loading image is failed. Please contact service provider and app producer.</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="noNetworkAvailable">No network available. You will be unable to use the ImageS3 service.</string>
+    <string name="uploadImageActivityTitle">Upload Image</string>
+    <string name="imageListActivityTitle">Images</string>
+    <string name="loadImagePlantFailedTitle">Load ImagePlant Failed</string>
+    <string name="loadImagePlantFailed">Load ImagePlant failed. Please contact service provider and app producer.</string>
+    <string name="confirmReloadImages">Image plant has been updated. Do you want to reload images?</string>
+    <string name="selectTemplate">Select Template:</string>
+    <string name="selectOption">Select Option:</string>
+    <string name="saveToGallery">Save to gallery</string>
+    <string name="setAsWallPaper">Set as wallpaper</string>
+    <string name="delete">Delete</string>
+    <string name="saveToGallaryCompleted">The picture has been saved to gallary.</string>
+    <string name="setWallPaperCompleted">The picture has been set as wallpaper.</string>
+    <string name="imageDeleted">The image has been deleted.</string>    
+    <string name="longPressImage">Long-press the image to see options</string>
+    
+    <!-- CharSet (encoding) of text files. It can be GB2312, BIG5, or UTF-8. -->
+    <string name="charSetName">UTF-8</string>
+    
+    <string name="ImageS3ServiceURL"></string>
+    <string name="imagePlantId"></string>
+    
+</resources>

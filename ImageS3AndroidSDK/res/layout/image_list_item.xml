@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2015 Waterloo Mobile Studio
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:universalmate="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+    
+    <!-- ListRow Left side Thumbnail image -->
+    <ImageView
+            android:id="@+id/imageViewThumbnail"
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/image_border"
+            android:layout_width="160dip"
+            android:layout_height="90dip"
+        	android:layout_alignParentLeft="true"
+        	android:layout_alignParentStart="true"
+        	android:layout_marginRight="5dp"
+        	android:layout_marginEnd="5dp"
+        	android:layout_marginTop="2dp"            
+            android:src="@drawable/image_place_holder" />
+
+    <TextView
+        android:id="@+id/textViewIDLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toRightOf="@+id/imageViewThumbnail"
+        android:layout_toEndOf="@+id/imageViewThumbnail"
+        android:paddingBottom="2dp"        
+        android:textColor="#3D3D3D"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="ID:"/>
+    
+    <TextView
+        android:id="@+id/textViewID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textViewIDLabel"
+        android:layout_toEndOf="@+id/textViewIDLabel"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="2dp"   
+        android:textColor="#3D3D3D"
+        android:textSize="12sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textViewPublishTimeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toRightOf="@+id/imageViewThumbnail"
+        android:layout_toEndOf="@+id/imageViewThumbnail"
+        android:layout_below="@+id/textViewIDLabel"
+        android:paddingBottom="2dp"        
+        android:textColor="#3D3D3D"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="Upload:"/>
+    
+    <TextView
+        android:id="@+id/textViewPublishTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textViewPublishTimeLabel"
+        android:layout_toEndOf="@+id/textViewPublishTimeLabel"
+        android:layout_alignTop="@+id/textViewPublishTimeLabel"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="2dp"
+        android:textColor="#040404"
+        android:textSize="12sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textViewDimensionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toRightOf="@+id/imageViewThumbnail"
+        android:layout_toEndOf="@+id/imageViewThumbnail"
+        android:layout_below="@+id/textViewPublishTimeLabel"
+        android:paddingBottom="2dp"        
+        android:textColor="#3D3D3D"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="Dimension:"/>
+    
+    <TextView
+        android:id="@+id/textViewDimension"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textViewDimensionLabel"
+        android:layout_toEndOf="@+id/textViewDimensionLabel"
+        android:layout_alignTop="@+id/textViewDimensionLabel"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="2dp"
+        android:textColor="#040404"
+        android:textSize="12sp"
+        android:typeface="sans" />
+    
+    <TextView
+        android:id="@+id/textViewSizeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toRightOf="@+id/imageViewThumbnail"
+        android:layout_toEndOf="@+id/imageViewThumbnail"
+        android:layout_below="@+id/textViewDimensionLabel"
+        android:paddingBottom="2dp"        
+        android:textColor="#3D3D3D"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="Size:"/>
+    
+    <TextView
+        android:id="@+id/textViewSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textViewSizeLabel"
+        android:layout_toEndOf="@+id/textViewSizeLabel"
+        android:layout_alignTop="@+id/textViewSizeLabel"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="2dp"
+        android:textColor="#040404"
+        android:textSize="12sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textViewFormatLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toRightOf="@+id/imageViewThumbnail"
+        android:layout_toEndOf="@+id/imageViewThumbnail"
+        android:layout_below="@+id/textViewSizeLabel"
+        android:paddingBottom="2dp"        
+        android:textColor="#3D3D3D"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="Format:"/>
+    
+    <TextView
+        android:id="@+id/textViewFormat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textViewFormatLabel"
+        android:layout_toEndOf="@+id/textViewFormatLabel"
+        android:layout_alignTop="@+id/textViewFormatLabel"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="2dp"
+        android:textColor="#040404"
+        android:textSize="12sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textViewTemplateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toRightOf="@+id/imageViewThumbnail"
+        android:layout_toEndOf="@+id/imageViewThumbnail"
+        android:layout_below="@+id/textViewFormatLabel"
+        android:paddingBottom="2dp"        
+        android:textColor="#3D3D3D"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="Template:"/>
+    
+    <TextView
+        android:id="@+id/textViewTemplate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textViewTemplateLabel"
+        android:layout_toEndOf="@+id/textViewTemplateLabel"
+        android:layout_alignTop="@+id/textViewTemplateLabel"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="2dp"
+        android:textColor="#040404"
+        android:textSize="12sp"
+        android:typeface="sans" />
+    
+    <TextView
+        android:id="@+id/textViewOriginalImageIdLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toRightOf="@+id/imageViewThumbnail"
+        android:layout_toEndOf="@+id/imageViewThumbnail"
+        android:layout_below="@+id/textViewTemplateLabel"
+        android:paddingBottom="2dp"        
+        android:textColor="#3D3D3D"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="Original Image Id:"/>
+    
+    <TextView
+        android:id="@+id/textViewOriginalImageId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textViewOriginalImageIdLabel"
+        android:layout_toEndOf="@+id/textViewOriginalImageIdLabel"
+        android:layout_alignTop="@+id/textViewOriginalImageIdLabel"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="2dp"
+        android:textColor="#040404"
+        android:textSize="12sp"
+        android:typeface="sans" />
+    
+</RelativeLayout> 

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">ImageS3Android Demo</string>
+    
+    <string name="ImageS3ServiceURL"></string>
+    <string name="imagePlantId"></string>
+    
+</resources>
