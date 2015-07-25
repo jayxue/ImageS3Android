@@ -52,7 +52,7 @@ In order to utilize this library, you just need to do some configurations withou
 * In your application's ```AndroidManifest.xml```, include two activities:
   * ```com.wms.opensource.images3android.activity.UploadImageActivity```
   * ```com.wms.opensource.images3android.activity.ImageListFragmentActivity```
-* In your applications' ```res/values/strings.xml```,
+* In your application's ```res/values/strings.xml```,
   * Set ```ImageS3ServiceURL``` which is the URL of your ImageS3 service. Your application won't work without this being properly set.
   * Set ```imagePlantId``` which is the id of the image plant used for your application. Your application won't work without this being properly set.
 
