@@ -2,7 +2,7 @@
 
     <string name="app_name">ImageS3Android Demo</string>
     
-    <string name="ImageS3ServiceURL"></string>
-    <string name="imagePlantId"></string>
+    <string name="ImageS3ServiceURL">http://demo.images3.com/rest/v1/imageplants/</string>
+    <string name="imagePlantId">4b0owchhrmg0by_u8a07zw</string>
     
 </resources>
